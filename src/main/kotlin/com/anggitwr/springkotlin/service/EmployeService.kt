@@ -23,7 +23,7 @@ class EmployeService(private val imployeRepository: IEmployeRepository) {
                     username = employe.username,
                     firstname = employe.firstname,
                     middlename = employe.middlename,
-                    lastName = employe.lastName,
+                    lastname = employe.lastname,
                     emailId = employe.emailId,
                     dayOfBirth = employe.dayOfBirth
                 )
